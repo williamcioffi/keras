@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>keratin archives</title>
+  <meta name="description" content="keratin archives" />
+  <meta name="keywords" content="keratin, baleen, stable isotopes, EIA, hormone, cortisol, progesterone" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style_purple.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <!-- class="logo_colour", allows you to change the colour of the text -->
+        <!--<h1><a href="index.html">simple<span class="logo_colour">_light</span></a></h1>
+        <h2>Simple. Contemporary. Website Template.</h2> -->
+        <img src="style/fridgebot_orange.svg" height=150px>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">about</a></li>
+          <li><a href="index.html">data overview</a></li>
+          <li><a href="isotopeexplorer.html">isotope explorer</a></li>
+          <li><a href="examples.html">examples</a></li>
+          <li class = "selected"><a href="fridgebot.html">fridgebot</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <h1>news</h1>
+        <p>[2017-05-01] fridgebot is born</p>
+        <h1>links</h1>
+        <ul>
+          <li><a href="https://edwardmallon.wordpress.com/">the cave pearl project</a></li>
+          <li><a href="http://learn.adafruit.com">adafruit learning system</a></li>
+          <li><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130297">raspberry pi based PAM</a></li>
+          <li><a href="https://xkcd.com/1613/">the three laws of robotics</a></li>
+<!--          <li><a href="http://vertebrates.si.edu/mammals/">smithsonian mammal collections</a></li>
+          <li><a href="ncmaritimemuseumbeaufort.com/">north carolina maritime museum</a></li> -->
+        </ul>
+      </div>
+      <div id="content">
+        <h1>fridgebot</h1>
+        <p>fridgebot keeps track of the fridge temperature so reagents don't spoil. also it tweets sometimes.</p>
+
+        <p>I put fridgebot together using the following components, plus some odds and ends.
+        <ul>
+          <li>arduino uno</li>
+          <li>MCP9808 temperature sensor (adafruit)</li>
+          <li>photoresistor</li>
+          <li>sd card shield (seeduino)</li>
+          <li>FONA mini cellular GSM board (adafruit)</li>
+        </ul>
+
+        I used an old sd card shield from seeduino that I had lying around, but there are plenty of other arduino compatable
+        sd card interfaces that should work well. Both the temperature sensor and the cellular unit came from adafruit and
+        have complementary step by step tutorials and custom libraries that made everything very easy.</p>
+        
+        <p>Here's a <a href="images/fridgebotinaction.jpg">photo</a> of fridgebot in action and you can download the arduino 
+        <a href="code/fridgebot_logger.ino" target="_blank">code</a> if you'd like to take a look. Finally, take a look at
+        some typical fridgebot data:</p>
+        
+        <img src="images/fridgebotdata.jpg" height=300px>
+      </div>
+    </div>
+    <div id="footer">
+      <p>design from <a href="http://www.html5webtemplates.co.uk">HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
