@@ -91,7 +91,7 @@ ol li
   height: 170px;}
 
 #logo
-{ width: 860px;
+{ width: 100%;
   position: relative;
   height: 134px;}
 
@@ -121,7 +121,7 @@ ol li
 
 #menubar
 { height: 24px;
-  width: 900px;} 
+  width: 90%;} 
 
 ul#menu
 { float: left;
@@ -153,7 +153,7 @@ ul#menu li a:hover
 { color: #9D83FF;}
 
 #site_content
-{ width: 858px;
+{ width: 90%;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 10px 20px 20px 20px;
@@ -189,7 +189,7 @@ ul#menu li a:hover
   padding: 0;}
 
 #footer
-{ width: 916px;
+{ width: 90%;
   font-family: sans-serif;
   font-size: 90%;
   height: 28px;
