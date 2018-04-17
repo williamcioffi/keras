@@ -7,8 +7,8 @@ html
 
 body
 { font: normal .80em trebuchet ms, sans-serif;
-  background: #222222;
-  color: #9d9a92;}
+  background: #404040;
+  color: #b6b4af;}
 
 p
 { padding: 0 0 20px 0;
@@ -62,7 +62,7 @@ a:hover
 blockquote
 { margin: 20px 0; 
   padding: 10px 20px 0 20px;
-  border: 1px solid #9d9a92;
+  border: 1px solid #b6b4af;
   background: #1e1e1e;}
 
 ul
@@ -101,20 +101,20 @@ ol li
 #logo h1
 { padding: 24px 0 0 0;
   margin: 0;
-  color: #9d9a92;}
+  color: #b6b4af;}
 
 #logo h2
 { font-size: 120%;
   padding: 4px 0 0 0;
-  color: #9d9a92;}
+  color: #b6b4af;}
 
 #logo h1, #logo h1 a, #logo h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #9d9a92;
+  color: #b6b4af;
   text-decoration: none;}
 
 #logo h1 a .logo_colour
-{ color: #9d9a92;}
+{ color: #b6b4af;}
 
 #logo a:hover .logo_colour
 { color: #990038;}
@@ -141,12 +141,12 @@ ul#menu li a
   height: 20px;
   padding: 6px 20px 5px 20px;
   text-align: center;
-  color: #9d9a92;
+  color: #b6b4af;
   text-decoration: none;
-  background: #222222;} 
+  background: #404040;} 
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ background: #222222;
+{ background: #404040;
   color: #e87e00;}
 
 ul#menu li a:hover
@@ -157,8 +157,8 @@ ul#menu li a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 10px 20px 20px 20px;
-  background: #222222;
-  border: 15px solid #222222;} 
+  background: #404040;
+  border: 15px solid #404040;} 
 
 .sidebar
 { float: right;
@@ -196,7 +196,7 @@ ul#menu li a:hover
   padding: 20px 0 5px 0;
   text-align: center; 
   background: transparent;
-  color: #9d9a92;;
+  color: #b6b4af;;
   letter-spacing: 0.1em;}
 
 #footer a, #footer a:hover
@@ -231,20 +231,20 @@ ul#menu li a:hover
 { padding: 5px; 
   width: 299px; 
   font: 100% arial; 
-  border: 1px solid #9d9a92; 
-  background: #222222; 
-  color: #9d9a92;}
+  border: 1px solid #b6b4af; 
+  background: #404040; 
+  color: #b6b4af;}
   
 .form_settings .submit
 { font: 100% arial; 
-  border: 1px solid #9d9a92; 
+  border: 1px solid #b6b4af; 
   width: 99px; 
   margin: 0 0 0 212px; 
   height: 33px;
   padding: 2px 0 3px 0;
   cursor: pointer; 
-  background: #222222; 
-  color: #9d9a92;}
+  background: #404040; 
+  color: #b6b4af;}
 
 .form_settings textarea, .form_settings select
 { font: 100% arial; 
@@ -272,11 +272,11 @@ table
 
 table tr th, table tr td
 { background: #1e1e1e;
-  color: #9d9a92;
+  color: #b6b4af;
   padding: 7px 4px;
   text-align: left;}
   
 table tr td
 { background: #1e1e1e;
-  color: #9d9a92;
-  border-top: 1px solid #9d9a92;}
+  color: #b6b4af;
+  border-top: 1px solid #b6b4af;}
