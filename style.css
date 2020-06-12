@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  height: 10vh;
+  min-height: 90px;
+  background: #dddddd;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navlinks {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navlinks li a {
+  color: #9d9a92;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navlinks li.selected a {
+  color: #0088a9;
+}
+
+.navlinks li.selected a:hover {
+  color: #9d9a92;
+}
+
+.navlinks li a:hover {
+  color: #0088a9;
+  transition: all 0.3s ease;
+}
+
+.sitecontent {
+  top: 10vh;
+  display: block;
+  margin: 25px 50px;
+}
+
+.sitecontent p {
+  padding: 15px 0px;
+}
+
+.sitecontent ul {
+  list-style: circle;
+  padding: 0 40px;
+}
+
+.sitecontent a {
+  color: #0088a9;
+  text-decoration: none;
+}
+
+.sitecontent a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 450px) {
+  .sitecontent {
+    margin: 10px 10px;
+  }
+
+  .sitecontent ul {
+    padding: 0 25px;
+  }  
+}
+ 
+@media screen and (max-width: 768px) {
+  .logo {
+    position: relative;
+    justify-content: space-around;
+    z-index: 2;
+  }
+ 
+ .line {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #9d9a92;
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  .burger {
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  
+  .navlinks {
+    position: fixed;
+    background-color: #dddddd;
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(50px at 90% -50%);
+    -webkit-clip-path: circle(50px at 90% -50%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .navlinks.open {
+    clip-path: circle(800px at 90% -30%);
+    -webkit-clip-path: circle(800px at 90% -30%);
+    pointer-events: all;
+  }
+   
+  .navlinks li {
+    opacity: 0;
+  }
+  
+  .navlinks li a {
+    font-size: 25px;
+  }
+}
+
+@keyframes navlinkfade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
